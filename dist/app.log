@@ -1,0 +1,12 @@
+2026-03-03 16:01:26,308 INFO:User search for ingredients=chicken,tomato diet=None
+2026-03-03 16:01:26,309 DEBUG:Requesting https://api.spoonacular.com/recipes/complexSearch with params {'includeIngredients': 'chicken,tomato', 'number': 5, 'apiKey': '8e5855a362384c3abb341bf0fdfdd959'}
+2026-03-03 16:01:26,315 DEBUG:Starting new HTTPS connection (1): api.spoonacular.com:443
+2026-03-03 16:01:27,731 DEBUG:https://api.spoonacular.com:443 "GET /recipes/complexSearch?includeIngredients=chicken%2Ctomato&number=5&apiKey=8e5855a362384c3abb341bf0fdfdd959 HTTP/11" 200 333
+2026-03-03 16:01:30,492 DEBUG:Starting new HTTPS connection (1): api.spoonacular.com:443
+2026-03-03 16:01:31,487 DEBUG:https://api.spoonacular.com:443 "GET /recipes/715415/information?apiKey=8e5855a362384c3abb341bf0fdfdd959 HTTP/11" 200 2930
+2026-03-03 16:01:31,498 DEBUG:Starting new HTTPS connection (1): api.spoonacular.com:443
+2026-03-03 16:01:31,864 DEBUG:https://api.spoonacular.com:443 "GET /recipes/715415/nutritionWidget.json?apiKey=8e5855a362384c3abb341bf0fdfdd959 HTTP/11" 200 3804
+2026-03-03 16:01:32,101 DEBUG:Starting new HTTPS connection (1): img.spoonacular.com:443
+2026-03-03 16:01:32,237 DEBUG:https://img.spoonacular.com:443 "GET /recipes/715415-556x370.jpg HTTP/11" 200 52368
+2026-03-03 16:01:32,576 DEBUG:Instructions from API: To a large dutch oven or soup pot, heat the olive oil over medium heat. Add the onion, carrots and celery and cook for 8-10 minutes or until tender, stirring occasionally. Add the garlic and cook for an additional 2 minutes, or until fragrant. Season conservatively with a pinch of salt and black pepper.To the pot, add the tomatoes, turnip and red lentils. Stir to combine. Stir in the vegetable stock and increase the heat on the stove to high. Bring the soup to a boil and then reduce to a simmer. Simmer for 20 minutes or until the turnips are tender and the lentils are cooked through. Add the chicken breast and parsley. Cook for an additional 5 minutes. Adjust seasoning to taste.Serve the soup immediately garnished with fresh parsley and any additional toppings. Enjoy!
+2026-03-03 16:01:32,633 INFO:Displayed details for Red Lentil Soup with Chicken and Turnips
